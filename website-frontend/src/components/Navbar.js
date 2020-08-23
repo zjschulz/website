@@ -4,7 +4,15 @@ export default class Navbar extends React.Component {
 
   render() {
     return (
-        <nav>Navbar</nav>
+      <nav className="Navbar">
+        <h1>Navbar</h1>
+        <ul>
+            <li>AboutMe</li>
+            <li>Projects</li>
+            <li>Resume</li>
+            <li>Social Media</li>
+        </ul>
+      </nav>
     );
   }
   
