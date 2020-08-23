@@ -4,7 +4,7 @@ export default class SocialMedia extends React.Component {
 
   render() {
     return (
-        <div className="Social Media">
+        <div className="SocialMedia" id="SocialMedia">
             <h1>Social Media</h1>
             <ul>
                 <li>LinkedIn</li>

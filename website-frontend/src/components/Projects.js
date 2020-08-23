@@ -4,7 +4,7 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-        <div className="Projects">
+        <div className="Projects" id="Projects">
             <h1>Projects</h1>
             <ul>
                 <li>Try Awarded</li>
