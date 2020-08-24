@@ -11,25 +11,25 @@ export default class Projects extends React.Component {
                 <li>
                   <div> <a href="https://www.youtube.com/watch?v=ZyaNO0lgK18&t=13s">
                     <h2>Try Awarded</h2>
-                    <p>Description 1</p>
+                    <p>React.js, Redux.js tool used to track multiple rugby teams’ game statistics and standings in a rugby union league setting.</p>
                     </a> </div>
                 </li>
                 <li>
                   <div> <a href="https://www.youtube.com/watch?v=R_NATOJQ8iA">
                     <h2>Yardsale</h2>
-                    <p>Description 2</p>
+                    <p>Javascript single page application used to present multiple sellers’ items for purchase in one place.</p>
                     </a> </div>
                 </li>
                 <li>
                   <div> <a href="https://www.youtube.com/watch?v=ce2nz0LCxm4&t=15s">
-                    <h2>Dog Walker</h2>
-                    <p>Description 3</p>
+                    <h2>Dog App</h2>
+                    <p>Ruby on Rails application used to track volunteer dog walking hours.</p>
                     </a> </div>
                 </li>
                 <li>
                   <div> <a href="https://www.youtube.com/watch?v=kaYfgoIQWFQ">
                     <h2>Dungeon Master Tool</h2>
-                    <p>Description 4</p>
+                    <p>Sinatra tool used by D&D dungeon masters to manage their tables.</p>
                     </a> </div>
                 </li>
               </ul>
