@@ -11,7 +11,6 @@ export default class App extends React.Component {
 
     return (
       <div className="App">
-        <center><h1>Zachary Schulz</h1></center>
         <Navbar/>
         <AboutMe/>
         <Projects/>
