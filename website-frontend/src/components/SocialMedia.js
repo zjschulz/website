@@ -10,17 +10,17 @@ export default class SocialMedia extends React.Component {
     return (
         <div className="SocialMedia" id="SocialMedia">
             <center><h1>Social Media</h1>
-                <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank">
-                  <img src={linkedin}></img>
+                <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedin} alt="LinkedIn"></img>
                 </a>
-                <a href="https://github.com/zjschulz" target="_blank">
-                  <img src={github}></img>
+                <a href="https://github.com/zjschulz" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="GitHub"></img>
                 </a>
-                <a href="https://www.facebook.com/zachary.schulz.50" target="_blank">
-                  <img src={facebook}></img>
+                <a href="https://www.facebook.com/zachary.schulz.50" target="_blank" rel="noopener noreferrer">
+                  <img src={facebook} alt="Facebook"></img>
                 </a>
-                <a href="https://www.instagram.com/zachary.schulz.50/" target="_blank">
-                  <img src={insta}></img>
+                <a href="https://www.instagram.com/zachary.schulz.50/" target="_blank" rel="noopener noreferrer">
+                  <img src={insta} alt="Instagram"></img>
                 </a>
                 </center>
         </div>
