@@ -7,7 +7,7 @@ export default class AboutMe extends React.Component {
         <div className="AboutMe" id="AboutMe">
             <center><h1>About Me</h1>
                 <p style={{width: '80%'}}>Full stack web developer with background in team management, billing, collections, and records management. Experienced in Ruby on Rails and JavaScript based programming. Seeking a position in which I can utilize my professional and creative skills to benefit your company.</p>
-                <h4>Education</h4>
+                <h4 id="Education">Education</h4>
                 <table>
                   <tbody class="table table-hover" align='center'>
                     <tr>
@@ -22,7 +22,7 @@ export default class AboutMe extends React.Component {
                     </tr>
                   </tbody>
                 </table>
-                <h4>Work Experience</h4>
+                <h4 id="Work">Work Experience</h4>
                 <table>
                   <tbody class="table table-hover"  align='center'>
                     <tr>
@@ -52,7 +52,7 @@ export default class AboutMe extends React.Component {
                     </tr>
                   </tbody>
                 </table>
-                <h4>Extra Curricular Activities</h4>
+                <h4 id="Extra">Extra Curricular Activities</h4>
                 <table>
                   <tbody class="table table-hover"  align='center'>
                     <tr>
