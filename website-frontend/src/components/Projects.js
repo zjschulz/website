@@ -9,13 +9,13 @@ export default class Projects extends React.Component {
             <div class="accordion">
               <ul>
                 <li>
-                  <div> <a href="https://youtu.be/CJfdEDvXlD8" target="_blank" rel="noopener noreferrer">
+                  <div> <a href="https://youtu.be/Np9cskcfYrs" target="_blank" rel="noopener noreferrer">
                     <h2>Try Awarded</h2>
                     <p>React.js, Redux.js tool used to track multiple rugby teams’ game statistics and standings in a rugby union league setting.</p>
                     </a> </div>
                 </li>
                 <li>
-                  <div> <a href="https://www.youtube.com/watch?v=R_NATOJQ8iA" target="_blank" rel="noopener noreferrer">
+                  <div> <a href="https://youtu.be/IYj_KxJ1DoY" target="_blank" rel="noopener noreferrer">
                     <h2>Yardsale</h2>
                     <p>Javascript single page application used to present multiple sellers’ items for purchase in one place.</p>
                     </a> </div>
