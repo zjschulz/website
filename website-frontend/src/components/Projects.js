@@ -21,7 +21,7 @@ export default class Projects extends React.Component {
                     </a> </div>
                 </li>
                 <li>
-                  <div> <a href="https://www.youtube.com/watch?v=ce2nz0LCxm4&t=15s" target="_blank" rel="noopener noreferrer">
+                  <div> <a href="https://www.youtube.com/watch?v=i7FJvKJF_Ds" target="_blank" rel="noopener noreferrer">
                     <h2>Dog App</h2>
                     <p>Ruby on Rails application used to track volunteer dog walking hours.</p>
                     </a> </div>
