@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../Resume 8.14.20.pdf';
+import pdf from '../Resume 8.31.20.pdf';
 
 export default class Resume extends React.Component {
 
