@@ -10736,13 +10736,13 @@
   font-size: 13.5px;
 }
 
-.accordion ul li:nth-child(1) { background-image: url("https://i.ytimg.com/vi/Np9cskcfYrs/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAZKShKSuXf8DYiV9EnLU87R0Treg"); }
+.accordion ul li:nth-child(1) { background-image: url("../rugbyapp.png"); background-size: cover;}
 
-.accordion ul li:nth-child(2) { background-image: url("https://i9.ytimg.com/vi_webp/IYj_KxJ1DoY/mqdefault.webp?sqp=CIyGxfoF&rs=AOn4CLBhbCxKg5OJALR_8gKHmDjz0oM3TQ"); }
+.accordion ul li:nth-child(2) { background-image: url("../yardsale.jpg"); background-size: cover;}
 
-.accordion ul li:nth-child(3) { background-image: url("https://i9.ytimg.com/vi/i7FJvKJF_Ds/mq2.jpg?sqp=CJibxfoF&rs=AOn4CLAa6gqSH-1xn8EsyBZgfxdj4b0S0Q"); }
+.accordion ul li:nth-child(3) { background-image: url("../dogapp.png"); background-size: cover;}
 
-.accordion ul li:nth-child(4) { background-image: url("https://tse2.mm.bing.net/th?id=OIP.GWYLNREXrgGXIArKAIq1BwHaEa&pid=Api&P=0&w=280&h=168"); }
+/* .accordion ul li:nth-child(4) { background-image: url("https://tse2.mm.bing.net/th?id=OIP.GWYLNREXrgGXIArKAIq1BwHaEa&pid=Api&P=0&w=280&h=168"); } */
 
 .accordion ul:hover li { width: 8%; }
 

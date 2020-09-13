@@ -26,12 +26,12 @@ export default class Projects extends React.Component {
                     <p>Ruby on Rails application used to track volunteer dog walking hours.</p>
                     </a> </div>
                 </li>
-                <li>
+                {/* <li>
                   <div> <a href="https://www.youtube.com/watch?v=kaYfgoIQWFQ" target="_blank" rel="noopener noreferrer">
                     <h2>Dungeon Master Tool</h2>
                     <p>Sinatra tool used by D&D dungeon masters to manage their tables.</p>
                     </a> </div>
-                </li>
+                </li> */}
               </ul>
             </div>
         </div>
