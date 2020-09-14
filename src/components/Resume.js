@@ -44,8 +44,8 @@ export default class Resume extends React.Component {
         <div className="Resume" id="Resume">
             <center>
             <h1>Resume</h1>
-            <button type="button" class="btn btn-secondary" onClick={this.showPDF}>Show</button>
-            <button type="button" class="btn btn-secondary" onClick={this.hidePDF}>Hide</button>
+            <button type="button" className="btn btn-secondary" onClick={this.showPDF}>Show</button>
+            <button type="button" className="btn btn-secondary" onClick={this.hidePDF}>Hide</button>
             <p>
             {this.renderPDF()}
             </p>

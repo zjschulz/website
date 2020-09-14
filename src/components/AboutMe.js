@@ -9,7 +9,7 @@ export default class AboutMe extends React.Component {
                 <p style={{width: '80%'}}>Full stack web developer with Bachelor’s degree in Physics and background in administrative management. Adept in using programming languages Ruby, JavaScript, HTML, and CSS which includes frameworks like React, Redux, and Ruby on Rails. Seeking a position in which I can utilize my professional and creative skills to benefit your company.</p>
                 <h4 id="Education">Education</h4>
                 <table>
-                  <tbody class="table table-hover" align='center' >
+                  <tbody className="table table-hover" align='center' >
                     <tr>
                       <td><img alt="Ville" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Spirit-Mark-RGB.jpg/1200px-Spirit-Mark-RGB.jpg" style={{width: '60px', height: '60px'}}></img></td>
                       <td >Millersville University of Pennsylvania</td>
@@ -26,7 +26,7 @@ export default class AboutMe extends React.Component {
                 </table>
                 <h4 id="Work">Work Experience</h4>
                 <table>
-                  <tbody class="table table-hover"  align='center'>
+                  <tbody className="table table-hover"  align='center'>
                     <tr>
                       <td><img alt="ISS" src="https://upload.wikimedia.org/wikipedia/de/thumb/b/bc/Integrated-Service-Solutions-Logo.svg/1200px-Integrated-Service-Solutions-Logo.svg.png" style={{width: '60px', height: '60px'}}></img></td>
                       <td>Integrated Service Solutions</td>
@@ -61,7 +61,7 @@ export default class AboutMe extends React.Component {
                 </table>
                 <h4 id="Extra">Extra Curricular Activities</h4>
                 <table>
-                  <tbody class="table table-hover"  align='center'>
+                  <tbody className="table table-hover"  align='center'>
                     <tr>
                       <td><img alt="NPRFC" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/51295906_10155952904812765_4313500268860801024_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=sIEf33EVCzUAX8PKyai&_nc_ht=scontent-lga3-1.xx&oh=ef9d2da5cada5b0c1dae9284dcd0e23b&oe=5F720C94" style={{width: '60px', height: '60px'}}></img></td>
                       <td>North Penn Rugby Football Club</td>

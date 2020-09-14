@@ -3,19 +3,9 @@
   "name": "Zachary Schulz Portfolio",
   "icons": [
     {
-      "src": "z.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "z.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "z.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",

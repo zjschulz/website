@@ -6,7 +6,7 @@ export default class Projects extends React.Component {
     return (
         <div className="Projects" id="Projects">
             <h1><center>Projects</center></h1>
-            <div class="accordion">
+            <div className="accordion">
               <ul>
                 <li>
                   <div> <a href="https://youtu.be/Np9cskcfYrs" target="_blank" rel="noopener noreferrer">
