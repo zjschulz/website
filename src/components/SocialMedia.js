@@ -1,8 +1,8 @@
 import React from 'react';
-import facebook from '../icons8-facebook-50.png';
-import github from '../icons8-github-50.png';
-import insta from '../icons8-instagram-50.png';
-import linkedin from '../icons8-linkedin-50.png';
+import facebook from '../images/icons8-facebook-50.png';
+import github from '../images/icons8-github-50.png';
+import insta from '../images/icons8-instagram-50.png';
+import linkedin from '../images/icons8-linkedin-50.png';
 
 export default class SocialMedia extends React.Component {
 
