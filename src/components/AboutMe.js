@@ -12,7 +12,7 @@ export default class AboutMe extends React.Component {
                   <tbody className="table table-hover" align='center' >
                     <tr>
                       <td><img alt="Ville" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Spirit-Mark-RGB.jpg/1200px-Spirit-Mark-RGB.jpg" style={{width: '60px', height: '60px'}}></img></td>
-                      <td >Millersville University of Pennsylvania</td>
+                      <td>Millersville University of Pennsylvania</td>
                       <td>Bachelor of Science in Physics</td>
                       <td>2013</td>
                     </tr>
