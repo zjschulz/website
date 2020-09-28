@@ -3,6 +3,7 @@ import facebook from '../images/icons8-facebook-50.png';
 import github from '../images/icons8-github-50.png';
 import insta from '../images/icons8-instagram-50.png';
 import linkedin from '../images/icons8-linkedin-50.png';
+import medium from '../images/icons8-medium-old-50.png';
 
 export default class SocialMedia extends React.Component {
 
@@ -21,6 +22,9 @@ export default class SocialMedia extends React.Component {
                 </a>
                 <a href="https://www.instagram.com/zachary.schulz.50/" target="_blank" rel="noopener noreferrer">
                   <img src={insta} alt="Instagram"></img>
+                </a>
+                <a href="https://medium.com/@zjschulz" target="_blank" rel="noopener noreferrer">
+                  <img src={medium} alt="Medium"></img>
                 </a>
                 </center>
         </div>
