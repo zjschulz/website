@@ -10742,7 +10742,7 @@
 
 .accordion ul li:nth-child(3) { background-image: url("../images/dogapp.png"); background-size: cover;}
 
-/* .accordion ul li:nth-child(4) { background-image: url("https://tse2.mm.bing.net/th?id=OIP.GWYLNREXrgGXIArKAIq1BwHaEa&pid=Api&P=0&w=280&h=168"); } */
+.accordion ul li:nth-child(4) { background-image: url("../images/onehundred.png"); } */
 
 .accordion ul:hover li { width: 8%; }
 
