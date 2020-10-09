@@ -1,4 +1,6 @@
 import React from 'react';
+import methacton from '../images/methacton.png';
+import nprfc from '../images/nprfc.jpeg';
 
 export default class AboutMe extends React.Component {
 
@@ -63,13 +65,13 @@ export default class AboutMe extends React.Component {
                 <table>
                   <tbody className="table table-hover"  align='center'>
                     <tr>
-                      <td><img alt="NPRFC" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/51295906_10155952904812765_4313500268860801024_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=sIEf33EVCzUAX8PKyai&_nc_ht=scontent-lga3-1.xx&oh=ef9d2da5cada5b0c1dae9284dcd0e23b&oe=5F720C94" style={{width: '60px', height: '60px'}}></img></td>
+                      <td><img alt="NPRFC" src={nprfc} style={{width: '60px', height: '60px'}}></img></td>
                       <td>North Penn Rugby Football Club</td>
                       <td>Player/ Youth Coach/ Field Director</td>
                       <td>2016 - 2020</td>
                     </tr>
                     <tr>
-                      <td><img alt="Methacton" src="http://mwarriors.org/Portals/27568/logo636574845999500716.png" style={{width: '60px', height: '60px'}}></img></td>
+                      <td><img alt="Methacton" src={methacton} style={{width: '60px', height: '60px'}}></img></td>
                       <td>Methacton Warriors Youth Football Team</td>
                       <td>Youth Coach</td>
                       <td>2016 - 2018</td>
