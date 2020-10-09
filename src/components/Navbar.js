@@ -18,8 +18,8 @@ export default class Navbar extends React.Component {
       <div>
         <center><h1>Zachary Schulz</h1></center>
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-          <div className="collapse navbar-collapse" id="navbarColor01" style={{display: "flex"}}>
-            <ul className="navbar-nav mr-auto">
+          <div className="collapse navbar-collapse" id="navbarColor01" style={{display: "flex", flexWrap: 'wrap', justifyContent: "center", flexDirection: 'row'}}>
+            <ul className="navbar-nav mr-auto" style={{flexDirection: 'row'}}>
               <li className="nav-item dropdown">
                 <a onClick={this.myFunction} className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me</a>
                 <div className="dropdown-menu" id="myDropdown">
