@@ -6,6 +6,7 @@ export default class Projects extends React.Component {
     return (
         <div className="Projects" id="Projects">
             <h1><center>Projects</center></h1>
+            <hr style={{border: "1px solid lightblue"}}></hr>
             <div className="accordion">
               <ul>
                 <li>

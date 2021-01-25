@@ -11,6 +11,7 @@ export default class SocialMedia extends React.Component {
     return (
         <div className="SocialMedia" id="SocialMedia">
             <center><h1>Social Media</h1>
+            <hr style={{border: "1px solid lightblue"}}></hr>
                 <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank" rel="noopener noreferrer">
                   <img src={linkedin} alt="LinkedIn"></img>
                 </a>
