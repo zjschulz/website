@@ -6,8 +6,7 @@ export default class AboutMe extends React.Component {
     return (
         <div className="AboutMe" id="AboutMe">
           <center>
-            <h1>About Me</h1>
-            <hr style={{border: "1px solid lightblue"}}></hr>
+            <h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)'}}>About Me</h1>
             <div class="row" style={{width: '80%'}}>
               <div class="col-md-5">
                 <img alt="" src="https://image.shutterstock.com/image-photo/close-portrait-smiling-handsome-man-260nw-1011569245.jpg"></img>

@@ -43,8 +43,7 @@ export default class Resume extends React.Component {
     return (
         <div className="Resume" id="Resume">
             <center>
-            <h1>Resume</h1>
-            <hr style={{border: "1px solid lightblue"}}></hr>
+            <h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)'}}>Resume</h1>
             <button type="button" className="btn btn-secondary" onClick={this.showPDF}>Show</button>
             <button type="button" className="btn btn-secondary" onClick={this.hidePDF}>Hide</button>
             <p>
