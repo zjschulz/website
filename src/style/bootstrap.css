@@ -10666,6 +10666,8 @@
   height: 250px;
   overflow: hidden;
   margin: 50px auto;
+  border-color: black;
+  border-style: solid;
 }
 
 .accordion ul {
