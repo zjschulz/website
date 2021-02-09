@@ -10,7 +10,7 @@ export default class SocialMedia extends React.Component {
   render() {
     return (
         <div className="SocialMedia" id="SocialMedia">
-            <center><h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)'}}>Social Media</h1>
+            <center><h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)', borderStyle: 'solid'}}>Social Media</h1>
                 <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank" rel="noopener noreferrer">
                   <img src={linkedin} alt="LinkedIn"></img>
                 </a>

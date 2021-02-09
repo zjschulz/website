@@ -5,7 +5,7 @@ export default class Projects extends React.Component {
   render() {
     return (
         <div className="Projects" id="Projects">
-            <h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)'}}><center>Projects</center></h1>
+            <h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)', borderStyle: 'solid'}}><center>Projects</center></h1>
             <div className="accordion">
               <ul>
                 <li>

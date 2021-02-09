@@ -16,7 +16,7 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <div style={{backgroundImage: 'linear-gradient(to bottom right, whitesmoke, lightblue)'}}>
+        <div style={{backgroundImage: 'linear-gradient(to bottom right, whitesmoke, lightblue)', borderStyle: 'solid', borderColor: 'black'}}>
           <center>
             <h1 style={{padding: "2rem", marginBottom: "0"}}>Zachary Schulz</h1>
           </center>
