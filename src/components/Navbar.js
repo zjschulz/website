@@ -21,7 +21,7 @@ export default class Navbar extends React.Component {
             <h1 style={{padding: "2rem", marginBottom: "0"}}>Zachary Schulz</h1>
           </center>
         </div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary" style={{}}>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           <div className="collapse navbar-collapse" id="navbarColor01" style={{display: "flex", flexWrap: 'wrap', justifyContent: "center", flexDirection: 'row'}}>
             <ul className="navbar-nav mr-auto" style={{flexDirection: 'row'}}>
               {/* <li className="nav-item dropdown">
