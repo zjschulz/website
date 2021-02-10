@@ -11,6 +11,10 @@ import github from '../images/github.png';
 import instagram from '../images/instagram.png';
 import linkedin from '../images/linkedin.png';
 import medium from '../images/medium.png';
+import rugby from '../images/rugbyapp.png'
+import yardsale from '../images/yardsale.jpg'
+import dogapp from '../images/dogapp.png'
+import onehundred from '../images/onehundred.png'
 
 export default class Test extends React.Component{
 
@@ -34,7 +38,31 @@ export default class Test extends React.Component{
                     <img src={css} alt="CSS"></img>
                     <img src={html} alt="HTML"></img>
                 </div>
-                <div style={{height: '500px', backgroundImage: 'linear-gradient(black, #B71FEA, black)', display: "flex"}}>
+                <div class="content">
+                    <div class="projectframe">
+                        <a href="https://youtu.be/Np9cskcfYrs" target="_blank" rel="noopener noreferrer">
+                            <img src={rugby}></img>
+                            <div class="centered">TRY AWARDED</div>
+                        </a>
+                    </div>
+                    <div class="projectframe">
+                        <a href="https://youtu.be/IYj_KxJ1DoY" target="_blank" rel="noopener noreferrer">
+                            <img src={yardsale}></img>
+                            <div class="centered">YARDSALE</div>
+                        </a>
+                    </div>
+                    <div class="projectframe">
+                        <a href="https://www.youtube.com/watch?v=i7FJvKJF_Ds" target="_blank" rel="noopener noreferrer">
+                            <img src={dogapp}></img>
+                            <div class="centered">DOG APP</div>
+                        </a>
+                    </div>
+                    <div class="projectframe">
+                        <a href="https://onehundred.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={onehundred}></img>
+                            <div class="centered">100 COMPS OF CODE</div>
+                        </a>
+                    </div>
                 </div>
                 <div class="socialmedia">
                     <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank" rel="noopener noreferrer">
