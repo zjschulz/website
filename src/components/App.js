@@ -4,7 +4,6 @@ import SocialMedia from './SocialMedia';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Resume from './Resume';
-import home from '../images/icons8-home-48.png';
 import Test from './Test';
 
 export default class App extends React.Component {
@@ -19,8 +18,8 @@ export default class App extends React.Component {
         <Projects/>
         <Resume/>
         <SocialMedia/>
-        <a href="#" style={{position: "sticky", bottom: 10, left: 0}}>
-          <img src={home} alt="Home"></img>
+        <a href="#" style={{position: "sticky", bottom: 50, left: 0}}>
+          <img alt="Home"></img>
         </a> */}
       </div>
     );

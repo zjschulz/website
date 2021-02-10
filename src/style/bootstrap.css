@@ -10803,3 +10803,9 @@
 .techskills img {
   padding: 10px;
 }
+
+.socialmedia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
