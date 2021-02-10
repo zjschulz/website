@@ -5,6 +5,7 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Resume from './Resume';
 import home from '../images/icons8-home-48.png';
+import Test from './Test';
 
 export default class App extends React.Component {
   
@@ -12,14 +13,15 @@ export default class App extends React.Component {
 
     return (
       <div className="App" style={{backgroundImage: 'url(http://1.bp.blogspot.com/-DcLFSqc9-pE/TcwhHltYMHI/AAAAAAAACQk/f83I791s0V0/s1600/raghu-lilies-1920-x-1200-background.jpg)', backgroundAttachment: 'fixed'}}>
-        <Navbar/>
+        <Test/>
+        {/* <Navbar/>
         <AboutMe/>
         <Projects/>
         <Resume/>
         <SocialMedia/>
         <a href="#" style={{position: "sticky", bottom: 10, left: 0}}>
           <img src={home} alt="Home"></img>
-        </a>
+        </a> */}
       </div>
     );
 

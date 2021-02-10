@@ -10,7 +10,9 @@ export default class AboutMe extends React.Component {
             <h1 style={{backgroundImage: 'linear-gradient(to bottom left, whitesmoke, lightblue)', borderStyle: 'solid'}}>About Me</h1>
             <div class="row" style={{width: '80%', marginBottom: '0.5rem'}}>
               <div class="col-md-5">
-                <img alt="" src={portrait} style={{width: '100%'}}></img>
+                <div class="frame">
+                  <img alt="" src={portrait} style={{width: '100%'}}></img>
+                </div>
               </div>
               <div class="col-md-7">
                 <div class="row" style={{textAlign: "left"}}>

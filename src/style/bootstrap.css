@@ -10758,3 +10758,48 @@
   -webkit-transform: translateX(0);
   transform: translateX(0);
 }
+
+.frame {
+  justify-content: center;
+  background: -webkit-linear-gradient(left top, #2152f3 0%, #f404fc 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 1000px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.frame img {
+  background: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 1000px;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+  background: linear-gradient( to right, #2152f3, #2152f3, #f404fc, #f404fc); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+
+.name {
+  text-align: center;
+  font-size: x-large;
+  background: linear-gradient( to right, #2152f3, #2152f3, #f404fc, #f404fc); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+
+.techskills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.techskills img {
+  padding: 10px;
+}
