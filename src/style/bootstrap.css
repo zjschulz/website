@@ -10779,7 +10779,7 @@
 .title {
   text-align: center;
   font-size: large;
-  background: linear-gradient( to right, #2152f3, #2152f3, #f404fc, #f404fc); 
+  background: linear-gradient( to right, #1B66F1, #1B66F1, #B71FEA, #B71FEA); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
     background-clip: text;
@@ -10788,7 +10788,7 @@
 .name {
   text-align: center;
   font-size: x-large;
-  background: linear-gradient( to right, #2152f3, #2152f3, #f404fc, #f404fc); 
+  background: linear-gradient( to right, #1B66F1, #1B66F1, #B71FEA, #B71FEA); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
     background-clip: text;

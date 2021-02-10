@@ -34,7 +34,7 @@ export default class Test extends React.Component{
                     <img src={css} alt="CSS"></img>
                     <img src={html} alt="HTML"></img>
                 </div>
-                <div style={{height: '500px', backgroundImage: 'linear-gradient(black, blueviolet, black)'}}>
+                <div style={{height: '500px', backgroundImage: 'linear-gradient(black, #B71FEA, black)', display: "flex"}}>
                 </div>
                 <div class="socialmedia">
                     <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank" rel="noopener noreferrer">
