@@ -15,7 +15,7 @@ import rugby from '../images/projects/rugbyapp.png'
 import yardsale from '../images/projects/yardsale.jpg'
 import dogapp from '../images/projects/dogapp.png'
 import onehundred from '../images/projects/onehundred.png'
-
+import dndtool from '../images/projects/dndtool.png'
 import coach from '../images/activities/coach.png'
 import dumbbell from '../images/activities/dumbbell.png'
 import football from '../images/activities/football.png'
@@ -68,6 +68,12 @@ export default class Test extends React.Component{
                         <a href="https://onehundred.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <img src={onehundred} alt="onehundred"></img>
                             <div class="centered">100 COMPS OF CODE</div>
+                        </a>
+                    </div>
+                    <div class="projectframe">
+                        <a href="https://github.com/zjschulz/dnd-tool" target="_blank" rel="noopener noreferrer">
+                            <img src={dndtool} alt="dndtool"></img>
+                            <div class="centered">D&D Tool</div>
                         </a>
                     </div>
                 </div>
