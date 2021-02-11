@@ -10853,6 +10853,13 @@
   text-align: center;
 }
 
+.activity {
+  background: linear-gradient( to right, #1B66F1, #1B66F1, #B71FEA, #B71FEA); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+
 /* @media (max-width: 450px) {
   .content {
     height: 100%;
