@@ -10787,7 +10787,7 @@
 
 .name {
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   background: linear-gradient( to right, #1B66F1, #1B66F1, #B71FEA, #B71FEA); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
@@ -10798,6 +10798,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .techskills img {
@@ -10811,8 +10812,18 @@
 }
 
 .content {
+  margin-top: 20px;
   height: 500px;
-  background-image: linear-gradient(black, #B71FEA, black);
+  background-image: linear-gradient(black, #B71FEA);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.email {
+  height: 500px;
+  background-image: linear-gradient(#B71FEA, black);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10820,6 +10831,7 @@
 }
 
 .projectframe {
+
   justify-content: center;
   background: -webkit-linear-gradient(left top, #2152f3 0%, black 100%);
   width: 150px;
@@ -10854,6 +10866,7 @@
 }
 
 .activity {
+  margin-top: 10px;
   background: linear-gradient( to right, #1B66F1, #1B66F1, #B71FEA, #B71FEA); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
@@ -10861,7 +10874,7 @@
 }
 
 /* @media (max-width: 450px) {
-  .content {
+  .content, .email {
     height: 100%;
   }
 } */

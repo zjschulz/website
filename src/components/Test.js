@@ -22,6 +22,7 @@ import football from '../images/activities/football.png'
 import physics from '../images/activities/physics.png'
 import runner from '../images/activities/runner.png'
 import videogame from '../images/activities/videogame.png'
+import Email from './Email';
 
 export default class Test extends React.Component{
 
@@ -44,6 +45,14 @@ export default class Test extends React.Component{
                     <img src={angular} alt="Angular"></img>
                     <img src={css} alt="CSS"></img>
                     <img src={html} alt="HTML"></img>
+                </div>
+                <div class="socialmedia">
+                    <div class="activity"><img src={coach} alt="coach"></img>Youth Coach</div>
+                    <div class="activity"><img src={dumbbell} alt="dumbbell"></img>Lifter</div>
+                    <div class="activity"><img src={football} alt="football"></img>Rugby Player</div>
+                    <div class="activity"><img src={physics} alt="physics"></img>B.S. in Physics</div>
+                    <div class="activity"><img src={runner} alt="runner"></img>Runner</div>
+                    <div class="activity"><img src={videogame} alt="videogame"></img>Gamer</div>
                 </div>
                 <div class="content">
                     <div class="projectframe">
@@ -73,17 +82,12 @@ export default class Test extends React.Component{
                     <div class="projectframe">
                         <a href="https://github.com/zjschulz/dnd-tool" target="_blank" rel="noopener noreferrer">
                             <img src={dndtool} alt="dndtool"></img>
-                            <div class="centered">D&D Tool</div>
+                            <div class="centered">D&D TOOl</div>
                         </a>
                     </div>
                 </div>
-                <div class="socialmedia">
-                    <div class="activity"><img src={coach} alt="coach"></img>Youth Coach</div>
-                    <div class="activity"><img src={dumbbell} alt="dumbbell"></img>Lifter</div>
-                    <div class="activity"><img src={football} alt="football"></img>Rugby Player</div>
-                    <div class="activity"><img src={physics} alt="physics"></img>B.S. in Physics</div>
-                    <div class="activity"><img src={runner} alt="runner"></img>Runner</div>
-                    <div class="activity"><img src={videogame} alt="videogame"></img>Gamer</div>
+                <div class="email">
+                    <Email/>
                 </div>
                 <div class="socialmedia">
                     <a href="https://www.linkedin.com/in/zachary-schulz-65946663/" target="_blank" rel="noopener noreferrer">
