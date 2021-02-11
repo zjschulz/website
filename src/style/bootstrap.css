@@ -10739,13 +10739,13 @@
   font-size: 13.5px;
 }
 
-.accordion ul li:nth-child(1) { background-image: url("../images/rugbyapp.png"); background-size: cover;}
+.accordion ul li:nth-child(1) { background-image: url("../images/projects/rugbyapp.png"); background-size: cover;}
 
-.accordion ul li:nth-child(2) { background-image: url("../images/yardsale.jpg"); background-size: cover;}
+.accordion ul li:nth-child(2) { background-image: url("../images/projects/yardsale.jpg"); background-size: cover;}
 
-.accordion ul li:nth-child(3) { background-image: url("../images/dogapp.png"); background-size: cover;}
+.accordion ul li:nth-child(3) { background-image: url("../images/projects/dogapp.png"); background-size: cover;}
 
-.accordion ul li:nth-child(4) { background-image: url("../images/onehundred.png"); } */
+.accordion ul li:nth-child(4) { background-image: url("../images/projects/onehundred.png"); } */
 
 .accordion ul:hover li { width: 8%; }
 
@@ -10853,8 +10853,8 @@
   text-align: center;
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
   .content {
     height: 100%;
   }
-}
+} */

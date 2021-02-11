@@ -1,20 +1,20 @@
 import React from 'react';
 import portrait from '../images/portrait.jpg';
-import ruby from '../images/ruby.png';
-import javascript from '../images/javascript.png';
-import react from '../images/react-native.png';
-import angular from '../images/angularjs.png';
-import css from '../images/css.png';
-import html from '../images/html.png';
-import facebook from '../images/facebook.png';
-import github from '../images/github.png';
-import instagram from '../images/instagram.png';
-import linkedin from '../images/linkedin.png';
-import medium from '../images/medium.png';
-import rugby from '../images/rugbyapp.png'
-import yardsale from '../images/yardsale.jpg'
-import dogapp from '../images/dogapp.png'
-import onehundred from '../images/onehundred.png'
+import ruby from '../images/languages/ruby.png';
+import javascript from '../images/languages/javascript.png';
+import react from '../images/languages/react-native.png';
+import angular from '../images/languages/angularjs.png';
+import css from '../images/languages/css.png';
+import html from '../images/languages/html.png';
+import facebook from '../images/socialmedia/facebook.png';
+import github from '../images/socialmedia/github.png';
+import instagram from '../images/socialmedia/instagram.png';
+import linkedin from '../images/socialmedia/linkedin.png';
+import medium from '../images/socialmedia/medium.png';
+import rugby from '../images/projects/rugbyapp.png'
+import yardsale from '../images/projects/yardsale.jpg'
+import dogapp from '../images/projects/dogapp.png'
+import onehundred from '../images/projects/onehundred.png'
 
 export default class Test extends React.Component{
 
