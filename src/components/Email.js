@@ -45,6 +45,10 @@ class Email extends React.Component {
       this.setState({message: event.target.value})
     }
   
+    resetForm(){
+      this.setState({name: '', email: '', message: ''})
+    }
+
     handleSubmit(e) {
         e.preventDefault();
 
